@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['networksocket',['NetworkSocket',['../class_network_socket.html',1,'']]]
+  ['icookietimeprovider',['ICookieTimeProvider',['../interface_i_cookie_time_provider.html',1,'']]]
 ];

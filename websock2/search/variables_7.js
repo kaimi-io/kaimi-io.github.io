@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['proxy_5fauthentication_5ferror',['PROXY_AUTHENTICATION_ERROR',['../class_web_request_exception.html#a92eea1f67256cc9e1ba4ecf9e4f4e02c',1,'WebRequestException']]],
-  ['proxy_5fauthentication_5frequired',['PROXY_AUTHENTICATION_REQUIRED',['../class_web_request_exception.html#ac64eafb77a7e7381da3c9c394ae26f2c',1,'WebRequestException']]]
+  ['openssl_5fis_5fabsent',['OPENSSL_IS_ABSENT',['../class_web_request_exception.html#ab5598f063f98cf6405434de75b9550ea',1,'WebRequestException']]]
 ];

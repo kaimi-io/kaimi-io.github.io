@@ -14,6 +14,7 @@ var searchData=
   ['getcontenttype',['getContentType',['../class_http_attachment.html#aa843137beb02bc2516fe0551c00ff7d7',1,'HttpAttachment']]],
   ['getcookiemanager',['getCookieManager',['../class_http_request_manager.html#ac2ea3ec9e24add356a9930a86366396d',1,'HttpRequestManager']]],
   ['getcookies',['getCookies',['../class_http_cookie_manager.html#a923c70c899ab88984c5ad8e8d1609237',1,'HttpCookieManager']]],
+  ['getcurrenttime',['getCurrentTime',['../interface_i_cookie_time_provider.html#a67ef180ed8d69dc63dacd27f4a418edd',1,'ICookieTimeProvider\getCurrentTime()'],['../class_cookie_current_time_provider.html#a67ef180ed8d69dc63dacd27f4a418edd',1,'CookieCurrentTimeProvider\getCurrentTime()']]],
   ['getdomain',['getDomain',['../class_http_cookie.html#a4d7f2058fe0af483b5eebb1bb78d9ab7',1,'HttpCookie']]],
   ['getexpires',['getExpires',['../class_http_cookie.html#ae49c82f460cbe6981fe680be668d0b1c',1,'HttpCookie']]],
   ['getfilename',['getFilename',['../class_http_attachment.html#a2982abe8d7b767602a1485dfb4cf653d',1,'HttpAttachment']]],

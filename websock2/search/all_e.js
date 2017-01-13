@@ -26,7 +26,7 @@ var searchData=
   ['setport',['setPort',['../class_web_request.html#a000ce1ff20433f6ac9297e01c31d0678',1,'WebRequest']]],
   ['setrawcontents',['setRawContents',['../class_web_response.html#a1c895fdc2f24b8ed1d400e009aa52924',1,'WebResponse']]],
   ['setrequesturi',['setRequestUri',['../class_web_request.html#a587fea3d7da370847e3d21ff851bc324',1,'WebRequest']]],
-  ['setsecure',['setSecure',['../class_web_request.html#af3c06cfaf127c672320b5c894c84ffda',1,'WebRequest\setSecure()'],['../class_network_socket.html#af3c06cfaf127c672320b5c894c84ffda',1,'NetworkSocket\setSecure()'],['../class_http_cookie.html#ae072cad04d1330759f03125ce120ed5e',1,'HttpCookie\setSecure()']]],
+  ['setsecure',['setSecure',['../class_web_request.html#af3c06cfaf127c672320b5c894c84ffda',1,'WebRequest\setSecure()'],['../class_network_socket.html#acdbae4e7d40ec69cfb379bab43910968',1,'NetworkSocket\setSecure()'],['../class_http_cookie.html#ae072cad04d1330759f03125ce120ed5e',1,'HttpCookie\setSecure()']]],
   ['setsocket',['setSocket',['../class_web_proxy.html#ae1a765aaae1b32d18f486aad4786257c',1,'WebProxy\setSocket()'],['../class_http_request_manager.html#ae1a765aaae1b32d18f486aad4786257c',1,'HttpRequestManager\setSocket()']]],
   ['settimeout',['setTimeout',['../class_network_socket.html#a3d80d4d51ec21d8237d6ed6808d70b8e',1,'NetworkSocket']]],
   ['settimeoutmode',['setTimeoutMode',['../class_network_socket.html#af054891a52075130e635817a09dc6e4e',1,'NetworkSocket']]],

@@ -4,6 +4,7 @@ var class_web_request_exception =
     [ "INCORRECT_AUTHENTICATION_OPTIONS", "class_web_request_exception.html#abafceb9ef6f20fb554a2aec9cfc9c0c0", null ],
     [ "INCORRECT_CHUNKED_CONTENT", "class_web_request_exception.html#ae9a772d4055384e8b95ab925a2026165", null ],
     [ "INCORRECT_GZIPPED_CONTENT", "class_web_request_exception.html#a047bd5d2a62826cfc9eae88a7cea1c9d", null ],
+    [ "OPENSSL_IS_ABSENT", "class_web_request_exception.html#ab5598f063f98cf6405434de75b9550ea", null ],
     [ "PROXY_AUTHENTICATION_ERROR", "class_web_request_exception.html#a92eea1f67256cc9e1ba4ecf9e4f4e02c", null ],
     [ "PROXY_AUTHENTICATION_REQUIRED", "class_web_request_exception.html#ac64eafb77a7e7381da3c9c394ae26f2c", null ],
     [ "SOCKET_ERROR", "class_web_request_exception.html#a43be79092b604d8a26538fcd7575d1f5", null ],

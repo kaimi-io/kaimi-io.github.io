@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['webproxy',['WebProxy',['../class_web_proxy.html',1,'']]],
-  ['webrequest',['WebRequest',['../class_web_request.html',1,'']]],
-  ['webrequestexception',['WebRequestException',['../class_web_request_exception.html',1,'']]],
-  ['webrequesthelpers',['WebRequestHelpers',['../class_web_request_helpers.html',1,'']]],
-  ['webresponse',['WebResponse',['../class_web_response.html',1,'']]]
+  ['socks4aproxy',['Socks4AProxy',['../class_socks4_a_proxy.html',1,'']]],
+  ['socks4proxy',['Socks4Proxy',['../class_socks4_proxy.html',1,'']]],
+  ['socks5proxy',['Socks5Proxy',['../class_socks5_proxy.html',1,'']]],
+  ['socksproxy',['SocksProxy',['../class_socks_proxy.html',1,'']]]
 ];

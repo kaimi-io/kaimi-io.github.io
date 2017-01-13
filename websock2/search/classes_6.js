@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['texthelpers',['TextHelpers',['../class_text_helpers.html',1,'']]]
+  ['networksocket',['NetworkSocket',['../class_network_socket.html',1,'']]]
 ];

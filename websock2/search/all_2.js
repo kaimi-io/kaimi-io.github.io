@@ -6,5 +6,6 @@ var searchData=
   ['clearcontents',['clearContents',['../class_dump_socket.html#aa865bb00b7b798017a1a410d50983031',1,'DumpSocket']]],
   ['clearheaders',['clearHeaders',['../class_http_header_manager.html#a974c6b9337a94365e0b2ab37a812c7d5',1,'HttpHeaderManager']]],
   ['close',['close',['../class_http_socket.html#aa69c8bf1f1dcf4e72552efff1fe3e87e',1,'HttpSocket']]],
+  ['cookiecurrenttimeprovider',['CookieCurrentTimeProvider',['../class_cookie_current_time_provider.html',1,'']]],
   ['createfromurl',['createFromUrl',['../class_web_request.html#a9435c20af768a59c51d8aa543e8305d3',1,'WebRequest']]]
 ];

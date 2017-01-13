@@ -1,5 +1,6 @@
 var annotated =
 [
+    [ "CookieCurrentTimeProvider", "class_cookie_current_time_provider.html", "class_cookie_current_time_provider" ],
     [ "DumpSocket", "class_dump_socket.html", "class_dump_socket" ],
     [ "FileSocket", "class_file_socket.html", "class_file_socket" ],
     [ "HttpAttachment", "class_http_attachment.html", "class_http_attachment" ],
@@ -12,6 +13,7 @@ var annotated =
     [ "HttpProxy", "class_http_proxy.html", "class_http_proxy" ],
     [ "HttpRequestManager", "class_http_request_manager.html", "class_http_request_manager" ],
     [ "HttpSocket", "class_http_socket.html", "class_http_socket" ],
+    [ "ICookieTimeProvider", "interface_i_cookie_time_provider.html", "interface_i_cookie_time_provider" ],
     [ "LowLevelSocket", "class_low_level_socket.html", "class_low_level_socket" ],
     [ "NetworkSocket", "class_network_socket.html", "class_network_socket" ],
     [ "Socks4AProxy", "class_socks4_a_proxy.html", "class_socks4_a_proxy" ],

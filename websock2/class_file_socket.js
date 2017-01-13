@@ -6,6 +6,6 @@ var class_file_socket =
     [ "isSecure", "class_file_socket.html#aa1f2844d6af0ec0d32e43bc58e9ad1ba", null ],
     [ "open", "class_file_socket.html#a2cd13268a385c6a40d527d52535abc40", null ],
     [ "read", "class_file_socket.html#a0ae097c91263157ce3d50c5c64b4e807", null ],
-    [ "setSecure", "class_file_socket.html#af3c06cfaf127c672320b5c894c84ffda", null ],
+    [ "setSecure", "class_file_socket.html#acdbae4e7d40ec69cfb379bab43910968", null ],
     [ "writeRawPart", "class_file_socket.html#aff9297378b4a1b171bfbf7be5d0ac03e", null ]
 ];

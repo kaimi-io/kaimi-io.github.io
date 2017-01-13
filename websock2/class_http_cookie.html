@@ -184,9 +184,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a791dda25d0d246d23332642bc5c5fb63"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_http_cookie.html#a791dda25d0d246d23332642bc5c5fb63">parseCookieDate</a> ($cookie_date)</td></tr>
 <tr class="memdesc:a791dda25d0d246d23332642bc5c5fb63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses cookie date string to UNIX timestamp.  <a href="#a791dda25d0d246d23332642bc5c5fb63">More...</a><br /></td></tr>
 <tr class="separator:a791dda25d0d246d23332642bc5c5fb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b94c4a350ca823f908e60b3949002c5"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_http_cookie.html#a9b94c4a350ca823f908e60b3949002c5">fromString</a> ($str, <a class="el" href="class_web_request.html">WebRequest</a> $request=null)</td></tr>
-<tr class="memdesc:a9b94c4a350ca823f908e60b3949002c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates <a class="el" href="class_http_cookie.html">HttpCookie</a> object from cookie header value string.  <a href="#a9b94c4a350ca823f908e60b3949002c5">More...</a><br /></td></tr>
-<tr class="separator:a9b94c4a350ca823f908e60b3949002c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a1e8291dc27d8fea17920ebb3b1dd51"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_http_cookie.html#a8a1e8291dc27d8fea17920ebb3b1dd51">fromString</a> ($str, <a class="el" href="class_web_request.html">WebRequest</a> $request=null, <a class="el" href="interface_i_cookie_time_provider.html">ICookieTimeProvider</a> $cookie_time_provider=null)</td></tr>
+<tr class="memdesc:a8a1e8291dc27d8fea17920ebb3b1dd51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates <a class="el" href="class_http_cookie.html">HttpCookie</a> object from cookie header value string.  <a href="#a8a1e8291dc27d8fea17920ebb3b1dd51">More...</a><br /></td></tr>
+<tr class="separator:a8a1e8291dc27d8fea17920ebb3b1dd51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>HTTP cookie. </p>
@@ -252,7 +252,7 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9b94c4a350ca823f908e60b3949002c5"></a>
+<a class="anchor" id="a8a1e8291dc27d8fea17920ebb3b1dd51"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -269,7 +269,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_web_request.html">WebRequest</a>&#160;</td>
-          <td class="paramname"><em>$request</em> = <code>null</code>&#160;</td>
+          <td class="paramname"><em>$request</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_i_cookie_time_provider.html">ICookieTimeProvider</a>&#160;</td>
+          <td class="paramname"><em>$cookie_time_provider</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -289,6 +295,7 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramtype">string</td><td class="paramname">$str</td><td>Value of Set-Cookie header </td></tr>
     <tr><td class="paramtype"><a class="el" href="class_web_request.html" title="Represents request that can be sent over HTTP(S) ">WebRequest</a></td><td class="paramname">$request</td><td>Original <a class="el" href="class_web_request.html">WebRequest</a> is needed to check/calculate domain and path of cookie. Can be null. If <a class="el" href="class_web_request.html" title="Represents request that can be sent over HTTP(S) ">WebRequest</a> is passed, then domain and path of cookie will be calculated if needed and checked properly. </td></tr>
+    <tr><td class="paramtype"><a class="el" href="interface_i_cookie_time_provider.html" title="Time provider for automatic cookie expiration. ">ICookieTimeProvider</a></td><td class="paramname">$cookie_time_provider</td><td>Cookie time provider, can be passed to provide the time, which can be used for "expires" value calculation. Can be null. </td></tr>
   </table>
   </dd>
 </dl>
@@ -798,7 +805,7 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns cookie string that corresponds to Set-Cookie header format. </p>
-<p>Note that this string can differ from source string which was passed to <a class="el" href="class_http_cookie.html#a9b94c4a350ca823f908e60b3949002c5" title="Creates HttpCookie object from cookie header value string. ">HttpCookie::fromString</a>. See also <a class="el" href="class_http_cookie.html#a7516ca30af0db3cdbf9a7739b48ce91d" title="Converts cookie to string, which is suitable for HTTP request. ">HttpCookie::__toString</a>.</p>
+<p>Note that this string can differ from source string which was passed to <a class="el" href="class_http_cookie.html#a8a1e8291dc27d8fea17920ebb3b1dd51" title="Creates HttpCookie object from cookie header value string. ">HttpCookie::fromString</a>. See also <a class="el" href="class_http_cookie.html#a7516ca30af0db3cdbf9a7739b48ce91d" title="Converts cookie to string, which is suitable for HTTP request. ">HttpCookie::__toString</a>.</p>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
     <tr><td class="paramname">string</td><td>Cookie string </td></tr>
@@ -817,7 +824,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_http_cookie.html">HttpCookie</a></li>
-    <li class="footer">Generated on Tue Feb 24 2015 23:38:29 for PHP WebSocket2 Library by
+    <li class="footer">Generated on Fri Jan 13 2017 21:18:21 for PHP WebSocket2 Library by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

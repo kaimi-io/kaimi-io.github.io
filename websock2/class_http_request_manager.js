@@ -1,6 +1,6 @@
 var class_http_request_manager =
 [
-    [ "__construct", "class_http_request_manager.html#ade9d59e911f620cee6bdbcd80c24655f", null ],
+    [ "__construct", "class_http_request_manager.html#ac95ebffbc5314c2c8ac23718987fe0d6", null ],
     [ "addAuthData", "class_http_request_manager.html#aba0991e5922b3f921b387b8e3ffd26b7", null ],
     [ "clearAuthData", "class_http_request_manager.html#af8bd11a78994ebbe206e8cfce89f6dcf", null ],
     [ "getAuthData", "class_http_request_manager.html#af58a04d61635cc1c6e1ae1aa7c0bea6b", null ],

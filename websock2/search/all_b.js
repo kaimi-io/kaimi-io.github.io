@@ -4,5 +4,6 @@ var searchData=
   ['offsetget',['offsetGet',['../class_http_param_manager.html#a59aee6e89465b48f014699f41b521f87',1,'HttpParamManager']]],
   ['offsetset',['offsetSet',['../class_http_param_manager.html#ac6bde6b1eb50eb5377e91771fe46b7a3',1,'HttpParamManager']]],
   ['offsetunset',['offsetUnset',['../class_http_param_manager.html#a2411227ea7118b13495de9839fd4b563',1,'HttpParamManager']]],
-  ['open',['open',['../class_http_socket.html#a2cd13268a385c6a40d527d52535abc40',1,'HttpSocket']]]
+  ['open',['open',['../class_http_socket.html#a2cd13268a385c6a40d527d52535abc40',1,'HttpSocket']]],
+  ['openssl_5fis_5fabsent',['OPENSSL_IS_ABSENT',['../class_web_request_exception.html#ab5598f063f98cf6405434de75b9550ea',1,'WebRequestException']]]
 ];

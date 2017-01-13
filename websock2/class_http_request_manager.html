@@ -117,9 +117,9 @@ $(document).ready(function(){initNavTree('class_http_request_manager.html','');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ade9d59e911f620cee6bdbcd80c24655f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_http_request_manager.html#ade9d59e911f620cee6bdbcd80c24655f">__construct</a> (<a class="el" href="class_http_socket.html">HttpSocket</a> $socket, <a class="el" href="class_http_cookie_manager.html">HttpCookieManager</a> $cookie_manager=null)</td></tr>
-<tr class="memdesc:ade9d59e911f620cee6bdbcd80c24655f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ade9d59e911f620cee6bdbcd80c24655f">More...</a><br /></td></tr>
-<tr class="separator:ade9d59e911f620cee6bdbcd80c24655f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95ebffbc5314c2c8ac23718987fe0d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_http_request_manager.html#ac95ebffbc5314c2c8ac23718987fe0d6">__construct</a> (<a class="el" href="class_http_socket.html">HttpSocket</a> $socket, <a class="el" href="class_http_cookie_manager.html">HttpCookieManager</a> $cookie_manager=null, <a class="el" href="interface_i_cookie_time_provider.html">ICookieTimeProvider</a> $cookie_time_provider=null)</td></tr>
+<tr class="memdesc:ac95ebffbc5314c2c8ac23718987fe0d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#ac95ebffbc5314c2c8ac23718987fe0d6">More...</a><br /></td></tr>
+<tr class="separator:ac95ebffbc5314c2c8ac23718987fe0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab094d448ae1ec74bf7b4c7422a348999"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_http_request_manager.html#ab094d448ae1ec74bf7b4c7422a348999">setOnRedirectCallback</a> (callable $on_redirect=null)</td></tr>
 <tr class="memdesc:ab094d448ae1ec74bf7b4c7422a348999"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets callback function that will be called before HTTP redirect occurs.  <a href="#ab094d448ae1ec74bf7b4c7422a348999">More...</a><br /></td></tr>
 <tr class="separator:ab094d448ae1ec74bf7b4c7422a348999"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,7 +171,7 @@ Public Member Functions</h2></td></tr>
 <div class="textblock"><p>High-level HTTP request manager, which supports HTTP redirects, cookies and authentication. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="basic_http_authentication_8php-example.html#_a0">basic_http_authentication.php</a>, <a class="el" href="basic_http_request_manager_8php-example.html#_a0">basic_http_request_manager.php</a>, <a class="el" href="http_cookies_8php-example.html#_a0">http_cookies.php</a>, and <a class="el" href="redirection_interception_8php-example.html#_a0">redirection_interception.php</a>.</dd>
 </dl></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="ade9d59e911f620cee6bdbcd80c24655f"></a>
+<a class="anchor" id="ac95ebffbc5314c2c8ac23718987fe0d6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -185,7 +185,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_http_cookie_manager.html">HttpCookieManager</a>&#160;</td>
-          <td class="paramname"><em>$cookie_manager</em> = <code>null</code>&#160;</td>
+          <td class="paramname"><em>$cookie_manager</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_i_cookie_time_provider.html">ICookieTimeProvider</a>&#160;</td>
+          <td class="paramname"><em>$cookie_time_provider</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -200,6 +206,7 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramtype"><a class="el" href="class_http_socket.html" title="Base class for socket ans proxy implementations. ">HttpSocket</a></td><td class="paramname">$socket</td><td>Socket to use for requests </td></tr>
     <tr><td class="paramtype"><a class="el" href="class_http_cookie_manager.html" title="HTTP cookie manager. ">HttpCookieManager</a></td><td class="paramname">$cookie_manager</td><td>Cookie manager to use. Can be null. </td></tr>
+    <tr><td class="paramtype"><a class="el" href="interface_i_cookie_time_provider.html" title="Time provider for automatic cookie expiration. ">ICookieTimeProvider</a></td><td class="paramname">$cookie_time_provider</td><td>Cookie time provider, can be passed to provide the time, which can be used for "expires" value calculation and for cookies expiration dates calculation. Can be null. </td></tr>
   </table>
   </dd>
 </dl>
@@ -596,7 +603,7 @@ This function must return true to run redirect or false to abort it. If request 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_http_request_manager.html">HttpRequestManager</a></li>
-    <li class="footer">Generated on Tue Feb 24 2015 23:38:29 for PHP WebSocket2 Library by
+    <li class="footer">Generated on Fri Jan 13 2017 21:18:21 for PHP WebSocket2 Library by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>

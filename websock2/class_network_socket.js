@@ -13,7 +13,7 @@ var class_network_socket =
     [ "sendRequest", "class_network_socket.html#aee7df618247a8a1477565a37793a3fe8", null ],
     [ "setOnReceiveBodyCallback", "class_network_socket.html#a7faa07cac6428a765594db3f570441c0", null ],
     [ "setOnReceiveHeadersCallback", "class_network_socket.html#a4ed31ea9b5b75966a82d585315284fea", null ],
-    [ "setSecure", "class_network_socket.html#af3c06cfaf127c672320b5c894c84ffda", null ],
+    [ "setSecure", "class_network_socket.html#acdbae4e7d40ec69cfb379bab43910968", null ],
     [ "setTimeout", "class_network_socket.html#a3d80d4d51ec21d8237d6ed6808d70b8e", null ],
     [ "setTimeoutMode", "class_network_socket.html#af054891a52075130e635817a09dc6e4e", null ],
     [ "startTimeMeasurement", "class_network_socket.html#a81d502b1ed0d6893f62558b0b6f74007", null ],

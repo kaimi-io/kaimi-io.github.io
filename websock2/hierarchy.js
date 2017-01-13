@@ -29,6 +29,9 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
+    [ "ICookieTimeProvider", "interface_i_cookie_time_provider.html", [
+      [ "CookieCurrentTimeProvider", "class_cookie_current_time_provider.html", null ]
+    ] ],
     [ "TextHelpers", "class_text_helpers.html", null ],
     [ "WebRequest", "class_web_request.html", null ],
     [ "WebRequestHelpers", "class_web_request_helpers.html", null ],

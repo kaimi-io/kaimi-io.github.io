@@ -196,9 +196,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a42eaf4ca7efae6322cd3754bd18249de"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a42eaf4ca7efae6322cd3754bd18249de"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>readAll</b> ($headers, <a class="el" href="class_web_request.html">WebRequest</a> $request)</td></tr>
 <tr class="separator:a42eaf4ca7efae6322cd3754bd18249de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3c06cfaf127c672320b5c894c84ffda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_network_socket.html#af3c06cfaf127c672320b5c894c84ffda">setSecure</a> ($secure)</td></tr>
-<tr class="memdesc:af3c06cfaf127c672320b5c894c84ffda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets socket to secure mode or turns off secure mode.  <a href="#af3c06cfaf127c672320b5c894c84ffda">More...</a><br /></td></tr>
-<tr class="separator:af3c06cfaf127c672320b5c894c84ffda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdbae4e7d40ec69cfb379bab43910968"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_network_socket.html#acdbae4e7d40ec69cfb379bab43910968">setSecure</a> ($secure, $host)</td></tr>
+<tr class="memdesc:acdbae4e7d40ec69cfb379bab43910968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets socket to secure mode or turns off secure mode.  <a href="#acdbae4e7d40ec69cfb379bab43910968">More...</a><br /></td></tr>
+<tr class="separator:acdbae4e7d40ec69cfb379bab43910968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1f2844d6af0ec0d32e43bc58e9ad1ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_network_socket.html#aa1f2844d6af0ec0d32e43bc58e9ad1ba">isSecure</a> ()</td></tr>
 <tr class="memdesc:aa1f2844d6af0ec0d32e43bc58e9ad1ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if socket is in secure mode.  <a href="#aa1f2844d6af0ec0d32e43bc58e9ad1ba">More...</a><br /></td></tr>
 <tr class="separator:aa1f2844d6af0ec0d32e43bc58e9ad1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -507,7 +507,7 @@ This function must return true to continue reading from socket or false to abort
 </dl>
 </div>
 </div>
-<a class="anchor" id="af3c06cfaf127c672320b5c894c84ffda"></a>
+<a class="anchor" id="acdbae4e7d40ec69cfb379bab43910968"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -518,8 +518,18 @@ This function must return true to continue reading from socket or false to abort
           <td class="memname">setSecure </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$secure</em></td><td>)</td>
+          <td class="paramname"><em>$secure</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$host</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -533,6 +543,7 @@ This function must return true to continue reading from socket or false to abort
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramtype">bool</td><td class="paramname">$secure</td><td>True to set socket to secure mode, false to turn secure mode off </td></tr>
+    <tr><td class="paramtype">bool</td><td class="paramname">$host</td><td>Host which will be set as SSL context parameter (peer name) </td></tr>
   </table>
   </dd>
 </dl>
@@ -718,7 +729,7 @@ This function must return true to continue reading from socket or false to abort
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_network_socket.html">NetworkSocket</a></li>
-    <li class="footer">Generated on Tue Feb 24 2015 23:38:29 for PHP WebSocket2 Library by
+    <li class="footer">Generated on Fri Jan 13 2017 21:18:21 for PHP WebSocket2 Library by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.9.1 </li>
   </ul>
